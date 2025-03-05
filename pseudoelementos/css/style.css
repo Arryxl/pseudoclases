@@ -1,0 +1,32 @@
+h5::before {
+    content: "🔥 ";
+    color: red;
+    }
+
+    p::after {
+    content: " ✔";
+    color: rgb(112, 0, 240);
+    }
+
+    h4::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(67, 87, 54);
+    }
+
+    h3::first-line {
+    font-weight: bold;
+    color: rgb(36, 218, 0);
+    }
+
+    .input3::placeholder {
+    color: rgb(50, 202, 44);
+    font-style: italic;
+    background-color: rgb(179, 1, 1);
+    }
+
+    li::marker {
+    color: red;
+    font-size: 1.5em;
+    content: "👉 ";
+    }
